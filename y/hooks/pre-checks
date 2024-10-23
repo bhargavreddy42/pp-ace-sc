@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# Random number generator function
+generate_random_numbers() {
+    for i in {1..10}; do
+        echo $(( RANDOM % 100 ))
+    done
+}
+
+# Arithmetic operations
+arithmetic_operations() {
+    local a=5
+    local b=10
+    local sum=$((a + b))
+    local diff=$((a - b))
+    local product=$((a * b))
+    local quotient=$((b / a))
+    
+    echo "Sum: $sum"
+    echo "Difference: $diff"
+    echo "Product: $product"
+    echo "Quotient: $quotient"
+}
+
+# Function to create random files
+create_files() {
+    for i in {1..5}; do
+        touch "file_$i.txt"
+        echo "This is file $i" > "file_$i.txt"
+    done
+}
+
+# Function to rename files
+rename_files() {
+    for i in {1..5}; do
+        mv "file_$i.txt" "renamed_file_$i.txt"
+    done
+}
+
+# String manipulation
+string_manipulation() {
+    local str="Hello Bash Scripting"
+    local lower_str=$(echo "$str" | tr '[:upper:]' '[:lower:]')
+    local upper_str=$(echo "$str" | tr '[:lower:]' '[:upper:]')
+    
+    echo "Original string: $str"
+    echo "Lowercase string: $lower_str"
+    echo "Uppercase string: $upper_str"
+}
+
+# File size check
+check_file_sizes() {
+    for file in renamed_file_*.txt; do
+        local size=$(stat --format="%s" "$file")
+        echo "File: $file, Size: $size bytes"
+    done
+}
+
+# Count words in a file
+word_count_in_file() {
+    for file in renamed_file_*.txt; do
+        local count=$(wc -w < "$file")
+        echo "File: $file, Word count: $count"
+    done
+}
+
+# Process management
+check_running_processes() {
+    ps aux | head -n 5
+}
+
+# Generate a random password
+generate_password() {
+    local length=12
+    tr -dc 'A-Za-z0-9!@#$%^&*()_+{}|:<>?'
+

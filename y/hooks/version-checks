@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Function to display a welcome message
+welcome_message() {
+    echo "Welcome to the random Bash script!"
+}
+
+# Function to create a directory if it doesn't exist
+create_directory() {
+    local dir="my_directory"
+    if [[ ! -d "$dir" ]]; then
+        mkdir "$dir"
+        echo "Directory '$dir' created."
+    else
+        echo "Directory '$dir' already exists."
+    fi
+}
+
+# Function to generate random numbers and save them to a file
+generate_numbers() {
+    local file="my_directory/numbers.txt"
+    for i in {1..5}; do
+        echo $(( RANDOM % 100 )) >> "$file"
+    done
+    echo "Random numbers generated and saved to $file."
+}
+
+# Function to calculate the sum of numbers in a file
+calculate_sum() {
+    local file="my_directory/numbers.txt"
+    local sum=0
+    while read -r num; do
+   
+
