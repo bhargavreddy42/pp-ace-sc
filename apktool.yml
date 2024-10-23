@@ -1,0 +1,81 @@
+version: 2.9.3
+apkFileName: PhonePe_ACE_v3.4.2.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 3040200
+  versionName: 3.4.2
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 8
+  build-data.properties: 8
+  client_analytics.proto: 8
+  firebase-analytics.properties: 8
+  firebase-annotations.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-measurement-connector.properties: 8
+  firebase-messaging.properties: 8
+  handlebars-v4.7.7.js: 8
+  helpers.nashorn.js: 8
+  kotlin-tooling-metadata.json: 8
+  play-services-ads-identifier.properties: 8
+  play-services-auth-api-phone.properties: 8
+  play-services-auth-base.properties: 8
+  play-services-auth.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-clearcut.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-fido.properties: 8
+  play-services-flags.properties: 8
+  play-services-gcm.properties: 8
+  play-services-iid.properties: 8
+  play-services-location.properties: 8
+  play-services-measurement-api.properties: 8
+  play-services-measurement-base.properties: 8
+  play-services-measurement-impl.properties: 8
+  play-services-measurement-sdk-api.properties: 8
+  play-services-measurement-sdk.properties: 8
+  play-services-measurement.properties: 8
+  play-services-phenotype.properties: 8
+  play-services-places-placereport.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  play-services-vision-common.properties: 8
+  play-services-vision.properties: 8
+  transport-api.properties: 8
+  com/appsflyer/internal/a-: 8
+  com/appsflyer/internal/b-: 8
+  com/appsflyer/internal/c-: 8
+  com/appsflyer/internal/d-: 8
+  com/mapbox/turf/models/AutoValue_LineIntersectsResult.java: 8
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+  org/bouncycastle/pkix/CertPathReviewerMessages.properties: 8
+  org/bouncycastle/pkix/CertPathReviewerMessages_de.properties: 8
+  org/bouncycastle/pqc/crypto/picnic/lowmcL1.bin.properties: 8
+  org/bouncycastle/pqc/crypto/picnic/lowmcL3.bin.properties: 8
+  org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties: 8
+  org/bouncycastle/x509/CertPathReviewerMessages.properties: 8
+  org/bouncycastle/x509/CertPathReviewerMessages_de.properties: 8
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- webp
+- jpg

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/nc_icon_action_widget_0" android:background="?selectableItemBackground" android:padding="@dimen/default_space_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/leftIconIV" android:visibility="gone" android:layout_width="@dimen/default_space_24" android:layout_height="@dimen/default_space_24" />
+    <TextView android:textSize="@dimen/dimen_text_12" android:textColor="?android:textColorSecondary" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/titleTV" android:tag="binding_1" android:paddingLeft="@dimen/default_space_16" android:paddingRight="@dimen/default_space_16" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/default_space_36" android:layout_weight="1.0" android:paddingHorizontal="@dimen/default_space_16" />
+    <ImageView android:id="@id/rightIconIV" android:visibility="gone" android:layout_width="@dimen/default_space_24" android:layout_height="@dimen/default_space_24" />
+</LinearLayout>

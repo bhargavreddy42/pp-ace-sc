@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|center" android:id="@id/lottie_worm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/lego_default_space_small" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/worm" />
+    </FrameLayout>
+    <TextView android:enabled="true" android:textSize="14.0sp" android:id="@id/tv_action_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAllCaps="true" style="@style/LegoRippleButtonBrandSquareCorner" />
+    <FrameLayout android:id="@id/fl_hide_anim_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.phonepe.lego.components.progressloaders.HideButtonAnim android:id="@id/button_hide_anim" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

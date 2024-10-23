@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lego_colorIconMedium">#ffefe6f7</color>
+    <color name="lego_colorSeparatorLite">#ff372e42</color>
+    <color name="lego_colorSeparatorMedium">#ff4f415e</color>
+    <color name="lego_colorTagSuccess">#ff28b563</color>
+    <color name="lego_colorTextGreen">#ff28b563</color>
+    <color name="lego_colorTextLiteAlpha">@color/lego_colorUILite</color>
+    <color name="lego_colorTextMedium">#ffbaafc7</color>
+    <color name="lego_colorTextWhite">#ffefe6f7</color>
+    <color name="lego_colorUIBannerPlaceholder">@color/lego_colorUILiteBackground</color>
+    <color name="lego_colorUIBlue">#ff3b81f5</color>
+    <color name="lego_colorUIBlueLite">#ff23334f</color>
+    <color name="lego_colorUIBrand">#ffa363eb</color>
+    <color name="lego_colorUIBrandTitleBar">#ff401e66</color>
+    <color name="lego_colorUIBrightRed">#ffff8266</color>
+    <color name="lego_colorUICardLightBlue">#ff2492c7</color>
+    <color name="lego_colorUICardRoyalBlue">#ff4474c2</color>
+    <color name="lego_colorUIDark">#ffefe6f7</color>
+    <color name="lego_colorUIDarkSemiTransparentLite">#3defe6f7</color>
+    <color name="lego_colorUIDisabled">#ff463657</color>
+    <color name="lego_colorUIGreenLite">#ff293330</color>
+    <color name="lego_colorUILite">#ff21182b</color>
+    <color name="lego_colorUILiteBackground">#ff2d2338</color>
+    <color name="lego_colorUIMedium">#ff6a5c7a</color>
+    <color name="lego_colorUIOrange">#fff79d5e</color>
+    <color name="lego_colorUIPink">#fff0568a</color>
+    <color name="lego_colorUIRed">#ffed675c</color>
+    <color name="lego_colorUIRedLite">#ff38201e</color>
+    <color name="lego_colorUIRipple">#14a363eb</color>
+    <color name="lego_colorUISkyBlue">#ff54b2f7</color>
+    <color name="lego_colorUITintBackground">#ff0e051a</color>
+    <color name="lego_colorUIVeryLite">#ff2d2338</color>
+    <color name="lego_colorUIYellow">#fff0d66c</color>
+</resources>

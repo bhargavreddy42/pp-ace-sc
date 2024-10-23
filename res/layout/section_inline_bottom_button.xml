@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/section_inline_bottom_button_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_sticky_container" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="top" android:id="@id/stickyContainerDivider" android:background="@color/dividerDark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="top" android:background="@color/dividerDark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingTop="@dimen/default_space_8" android:paddingBottom="@dimen/default_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/bottom_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/default_space_8" android:paddingEnd="@dimen/default_space_8" />
+        <com.phonepe.base.ui.progressButton.ProgressButton android:layout_gravity="center" android:id="@id/action_button" android:layout_width="150.0dip" android:layout_height="@dimen/default_space_40" android:paddingEnd="@dimen/default_space_8" app:enabled="false" app:roundedButton="true" app:text="@string/next" />
+    </LinearLayout>
+</LinearLayout>

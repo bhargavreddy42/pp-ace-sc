@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_capture_media" android:tag="layout/pv_nc_button_event_widget_0" android:paddingTop="@dimen/default_space_24" android:paddingBottom="@dimen/default_space_24" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/capture_btn" android:tag="binding_1" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="@dimen/default_space_48" android:layout_height="@dimen/default_space_48" app:srcCompat="@drawable/ic_pv_capture" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?colorAccent" android:layout_gravity="center" android:id="@id/capture_txt" android:tag="binding_2" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_4" android:textAllCaps="true" style="@style/LinkTextStyle.Medium.Small" />
+</LinearLayout>
