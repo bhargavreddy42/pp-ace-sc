@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:tag="layout/pv_nc_action_widget_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.phonepe.base.ui.progressButton.ProgressButton android:id="@id/action_view" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:backgroundColor="?colorAccent" />
-    <com.phonepe.base.ui.progressButton.ProgressButton android:id="@id/action_view_rounded" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_marginBottom="@dimen/default_space" android:layout_marginStart="@dimen/default_space" android:layout_marginEnd="@dimen/default_space" app:roundedButton="true" />
-</RelativeLayout>

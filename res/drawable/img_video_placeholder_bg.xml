@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="@dimen/space_4" />
-    <solid android:color="@color/kyc_brand_color_light" />
-    <stroke android:width="@dimen/default_space_1" android:color="@color/dividerDark" android:dashWidth="@dimen/default_space_5" android:dashGap="@dimen/default_space_5" />
-</shape>

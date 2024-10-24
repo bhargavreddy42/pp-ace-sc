@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.phonepe.pv.core.ui.customviews.CropImageView android:id="@id/phonePeCropImageView" android:tag="layout/fragment_crop_image_view_0" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:blurDetectionEnabled="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

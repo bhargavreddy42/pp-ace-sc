@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/rl_wrapper" android:tag="layout/nc_form_edit_text_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.textfield.TextInputLayout android:id="@id/input_parent" android:tag="binding_1" android:paddingLeft="@dimen/default_space_16" android:paddingTop="@dimen/default_space_12" android:paddingRight="@dimen/default_space_16" android:paddingBottom="@dimen/default_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorTextColor="@color/colorTextError" app:helperTextTextColor="@color/colorFillHint" app:hintEnabled="true" style="@style/NativeComponentEditTextFormHint">
-        <com.google.android.material.textfield.TextInputEditText android:id="@id/edit_text" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" android:importantForAutofill="no" style="?formTextInputEditTextStyle" />
-    </com.google.android.material.textfield.TextInputLayout>
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/actionIcon" android:tag="binding_3" android:padding="@dimen/default_space_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?colorAccent" android:layout_alignParentEnd="true" app:srcCompat="@drawable/gps_icon" style="?formActionIconStyle" />
-</RelativeLayout>

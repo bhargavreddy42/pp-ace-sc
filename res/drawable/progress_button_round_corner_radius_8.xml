@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_focused="true" android:state_enabled="false" android:drawable="@drawable/pab_enabled_false_corner_radius_8" />
-    <item android:state_enabled="false" android:drawable="@drawable/pab_enabled_false_corner_radius_8" />
-    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/pab_enabled_true_corner_radius_8" />
-    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/pab_enabled_true_corner_radius_8" />
-    <item android:state_enabled="true" android:drawable="@drawable/pab_enabled_true_corner_radius_8" />
-</selector>

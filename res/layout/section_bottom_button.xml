@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:tag="layout/section_bottom_button_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.phonepe.base.ui.progressButton.ProgressButton android:id="@id/action_button" android:layout_width="fill_parent" android:layout_height="@dimen/default_width_max" app:background="@drawable/background_section_button_square_corner" app:buttonTextSize="@dimen/default_space_16" app:enabled="false" app:text="NEXT" app:textAllCaps="false" />
-</LinearLayout>

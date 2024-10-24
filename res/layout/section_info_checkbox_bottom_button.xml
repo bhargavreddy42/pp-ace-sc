@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:tag="layout/section_info_checkbox_bottom_button_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
-    <View android:background="@color/dividerDark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
-    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingTop="@dimen/default_space_16" android:paddingBottom="@dimen/default_space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/default_space_16" android:paddingEnd="@dimen/default_space_16">
-        <CheckBox android:textSize="@dimen/dimen_text_12" android:textColor="@color/colorFillPrimary" android:layout_gravity="center" android:id="@id/cb_terms_and_condition" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/icon_check_box" android:text="@string/section_i_agree_to_the" />
-    </LinearLayout>
-    <include android:id="@id/lyt_info" layout="@layout/section_info_bottom_button" />
-</LinearLayout>

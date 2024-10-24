@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/default_space_16" android:layout_marginTop="@dimen/default_space_8" android:layout_marginRight="@dimen/default_space_16" android:layout_marginBottom="@dimen/default_space_8" android:layout_marginHorizontal="@dimen/default_space_16" android:layout_marginVertical="@dimen/default_space_8"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.phonepe.base.ui.view.timelineStepsView.StepsViewIndicator android:id="@id/steps_indicator_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/labels_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_space_4" />
-</LinearLayout>

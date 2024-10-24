@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/ll_wrapper" android:tag="layout/nc_radio_button_0" android:paddingLeft="@dimen/default_space_8" android:paddingRight="@dimen/default_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/default_space_8"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/dimen_text_14" android:textColor="@color/colorFillPrimary" android:id="@id/tv_title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_space_8" />
-    <RadioGroup android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <RadioButton android:textSize="@dimen/dimen_text_14" android:textStyle="normal" android:textColor="@color/colorFillPrimary" android:id="@id/rg_btn_1" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/StyleRadioButtonIcon" />
-        <RadioButton android:textSize="@dimen/dimen_text_14" android:textStyle="normal" android:textColor="@color/colorFillPrimary" android:id="@id/rg_btn_2" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="45.0dip" style="@style/StyleRadioButtonIcon" />
-    </RadioGroup>
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loader_view" android:tag="layout/loader_row_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_space_32"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center" android:id="@id/info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_space_16" android:layout_marginRight="@dimen/default_space_16" android:text="@string/load_more_plans" android:lineSpacingExtra="4.0sp" style="@style/TextStyle.Caption" />
-    <ProgressBar android:id="@id/loader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_space_16" android:layout_marginBottom="@dimen/default_space_32" style="@style/CircularProgress" />
-</LinearLayout>

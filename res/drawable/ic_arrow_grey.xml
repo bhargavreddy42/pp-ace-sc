@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:name="arrow_x5F_back">
-        <path android:fillColor="@color/colorIconMedium" android:pathData="M20,11v2H8l5.5,5.5l-1.42,1.42L4.16,12l7.92-7.92L13.5,5.5L8,11H20z" />
-    </group>
-</vector>

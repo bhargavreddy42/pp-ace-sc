@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/ll_profile_pic_container" android:tag="layout/phonepe_verified_media_viewer_activity_0" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/fl_profile_pic_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_profile_pic" android:tag="binding_1" android:background="@drawable/profile_pic_dialog_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </FrameLayout>
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_close" android:layout_width="@dimen/default_space_36" android:layout_height="@dimen/default_space_36" android:layout_margin="@dimen/default_space_16" app:srcCompat="@drawable/ic_cancel_media_viewer" />
-</RelativeLayout>

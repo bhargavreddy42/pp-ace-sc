@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:tag="layout/nc_bottom_sheet_description_0" android:padding="@dimen/default_space_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/dimen_text_20" android:textColor="@color/colorFillPrimary" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextStyle.Medium" />
-    <View android:id="@id/divider" android:tag="binding_2" android:background="@color/colorStrokeDefault" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/default_space_8" android:layout_marginBottom="@dimen/default_space_8" />
-    <TextView android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextStyle" />
-    <View android:background="@color/colorStrokeDefault" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/default_space_16" />
-    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorAccent" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/tvClose" android:padding="@dimen/default_space_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/insurance_got_it" style="@style/TextStyle.Medium" />
-</LinearLayout>

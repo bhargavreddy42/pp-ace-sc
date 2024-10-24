@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/llParent" android:tag="layout/nc_rich_label_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_rich_label" android:tag="binding_1" android:layout_width="@dimen/default_space_48" android:layout_height="@dimen/default_space_48" android:layout_marginEnd="@dimen/default_space_16" app:srcCompat="@drawable/placeholder_default" />
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/llLabelField" android:background="@color/white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:id="@id/tvTitle" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_space_4" style="@style/TextStyle.Medium" />
-        <TextView android:textColor="@color/colorTextSecondary" android:id="@id/labelTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/Font12Normal" />
-    </LinearLayout>
-</LinearLayout>
