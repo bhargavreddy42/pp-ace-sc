@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/nc_checkbox_0" android:layout_width="fill_parent" android:layout_height="@dimen/default_space_72"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:paddingTop="@dimen/default_space_8" android:paddingBottom="@dimen/default_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_space_8" android:layout_marginBottom="@dimen/default_space_8" android:layout_marginStart="@dimen/default_space_8" android:layout_marginEnd="@dimen/default_space_8">
+        <CheckBox android:textSize="@dimen/dimen_text_12" android:textStyle="normal" android:textColor="@color/colorFillPrimary" android:layout_gravity="center" android:id="@id/cb_terms_and_condition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/section_i_agree_to_the" style="@style/StyleCheckBox" />
+        <TextView android:textSize="@dimen/dimen_text_12" android:textColor="?colorAccent" android:layout_gravity="center" android:id="@id/tvTermsAndCondition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/insurance_section_term_and_condition" android:layout_marginStart="@dimen/default_space_2" />
+    </LinearLayout>
+</FrameLayout>

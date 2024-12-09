@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/markerViewContainer" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <com.mapbox.mapboxsdk.maps.widgets.CompassView android:id="@id/compassView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/event_view" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/mapbox_fab_corona" android:contentDescription="@null" />
+    <ImageView android:id="@id/logoView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mapbox_mapmyindia_logo_icon" android:contentDescription="@null" />
+    <com.mapbox.mapboxsdk.maps.widgets.indoor.FloorControllerView android:id="@id/floor_controller" android:background="@drawable/mapbox_layer_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:maxHeight="0.0dip" />
+    <RelativeLayout android:id="@id/splash_view" android:background="#4190caf9" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/loading_map_text_view" android:background="#ff000000" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mapbox_loading_map" android:layout_centerInParent="true" android:textAllCaps="false" />
+        <LinearLayout android:orientation="vertical" android:id="@id/map_loading_issue_layout" android:background="@android:color/white" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_centerInParent="true">
+            <TextView android:textColor="@color/mapbox_dim_gray" android:gravity="center" android:id="@id/error_text_view" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mapbox_something_went_wrong_map_loading" />
+            <Button android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/map_retry_button" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="@string/mapbox_retry" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.mapbox.mapboxsdk.maps.covid.SafetyStripView android:id="@id/covid_strip" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

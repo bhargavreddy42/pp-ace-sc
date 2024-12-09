@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/nc_attribute_row_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_weight="1.0">
+        <TextView android:textColor="@color/colorTextPrimary" android:gravity="start" android:id="@id/tvKey" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/default_space_8" style="@style/LabelMediumRegular" />
+        <TextView android:textColor="@color/lego_colorUIMedium" android:id="@id/tvDescription" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LabelSmallRegular" />
+    </LinearLayout>
+    <TextView android:textColor="@color/colorTextPrimary" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_marginEnd="@dimen/default_space_8" style="@style/LabelMediumRegular" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/colorTextPrimary" android:gravity="start" android:id="@id/tvValue" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/default_space_4" style="@style/LabelMediumRegular" />
+        <TextView android:textColor="@color/lego_colorUIMedium" android:gravity="start" android:id="@id/tvStrikeValue" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/default_space_4" style="@style/LabelSmallRegular" />
+        <TextView android:textColor="@color/colorTextPrimary" android:gravity="start" android:id="@id/tvNewValue" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LabelMediumBold" />
+    </LinearLayout>
+</LinearLayout>

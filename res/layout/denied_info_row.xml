@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/deniedDialogIV" android:layout_width="@dimen/permission_icon_size" android:layout_height="@dimen/permission_icon_size" android:layout_margin="@dimen/default_margin_8" android:contentDescription="@string/permission_icon" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/dimen_text_16" android:textStyle="bold" android:id="@id/deniedDialogTitleTV" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/deniedDialogIV" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/dimen_text_14" android:id="@id/deniedDialogDescTV" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/default_margin_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/deniedDialogIV" app:layout_constraintTop_toBottomOf="@id/deniedDialogTitleTV" />
+</androidx.constraintlayout.widget.ConstraintLayout>

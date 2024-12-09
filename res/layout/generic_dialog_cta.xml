@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@drawable/button_brand_text_only_text_color" android:gravity="center" android:id="@id/tv" android:tag="layout/generic_dialog_cta_0" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="@dimen/default_height_max" android:minHeight="@dimen/default_height_min" android:textAllCaps="true" android:paddingStart="@dimen/default_space_small" android:paddingEnd="@dimen/default_space_small" style="@style/LabelLargeBold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

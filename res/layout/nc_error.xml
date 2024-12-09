@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/nc_error_0" android:background="@color/white" android:paddingLeft="@dimen/default_space_16" android:paddingTop="@dimen/default_space_8" android:paddingRight="@dimen/default_space_16" android:paddingBottom="@dimen/default_space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/default_space_16" android:paddingVertical="@dimen/default_space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/colorWhiteFillSecondary" app:cardCornerRadius="@dimen/default_space_4" app:cardElevation="0.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_space_8">
+            <ImageView android:layout_width="@dimen/default_space_24" android:layout_height="@dimen/default_space_24" app:srcCompat="@drawable/outline_error" app:tint="@color/colorTextError" />
+            <TextView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_space_8" style="@style/TextStyle.Caption" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

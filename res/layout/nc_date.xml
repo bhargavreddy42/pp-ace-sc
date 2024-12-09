@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/nc_date_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/date_input_parent" android:tag="binding_1" android:paddingLeft="16.0dip" android:paddingTop="@dimen/default_space_12" android:paddingRight="16.0dip" android:paddingBottom="@dimen/default_space_4" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorTextColor="@color/colorTextError" app:helperTextTextColor="@color/colorFillHint" app:hintEnabled="true" style="@style/NativeComponentEditTextFormHint">
+        <com.phonepe.base.ui.view.dateEditText.DateEditText android:id="@id/date_edit_text" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" app:autoCorrect="false" app:dateFormat="DDMMYYYY" app:dividerCharacter="slash" app:helperTextEnabled="false" style="?dateTextInputEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:tag="binding_3" android:padding="@dimen/default_space_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?colorAccent" android:layout_alignParentEnd="true" app:srcCompat="@drawable/outline_event_later" style="?formActionIconStyle" />
+</RelativeLayout>

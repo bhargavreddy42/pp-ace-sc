@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/phonepe_verified_redirection_activity_0" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/toolbar_background" android:layout_width="fill_parent" android:layout_height="@dimen/default_space_56" app:navigationIcon="@drawable/ic_close_white" app:title="PhonePe Verified" app:titleTextColor="@color/toolbar_title" style="@style/ToolbarTheme">
+        <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="start|center" android:id="@id/customToolbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/phonepe_verified_toolbar" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.phonepe.pv.core.ui.customviews.LollipopFixedWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

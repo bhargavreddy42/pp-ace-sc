@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_ripple_progress_canvas_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.phonepe.lego.components.progressloaders.RippleAnimation android:id="@id/ripple_progress_animation_canvas" android:layout_width="fill_parent" android:layout_height="fill_parent" app:pbIsProgressBar="true" />
+    </FrameLayout>
+</merge>

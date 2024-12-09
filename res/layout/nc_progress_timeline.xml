@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/wrapper" android:tag="layout/nc_progress_timeline_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.phonepe.base.ui.view.timelineStepsView.StepsView android:id="@id/stepsView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

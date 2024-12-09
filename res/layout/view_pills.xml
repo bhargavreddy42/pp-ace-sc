@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.phonepe.lego.core.atoms.icon.PPIconView android:id="@id/pill_icon_left" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/pill_text" app:layout_constraintTop_toTopOf="parent" />
+    <com.phonepe.lego.core.atoms.textview.PPTextView android:id="@id/pill_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/pill_icon_left" app:layout_constraintRight_toLeftOf="@id/pill_icon_right" app:layout_constraintTop_toTopOf="parent" />
+    <com.phonepe.lego.core.atoms.icon.PPIconView android:id="@id/pill_icon_right" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/pill_text" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>
